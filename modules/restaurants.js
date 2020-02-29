@@ -1,8 +1,9 @@
 const restaurants = [    
     {
-        zona: 'norte',
+        zona: 'norte',        
         restaurantes:[          
           {
+            id: 1,
             nombre: 'cueva',
             menu:[
               {
@@ -16,6 +17,7 @@ const restaurants = [
             ]
           },
           {
+            id: 2,
             nombre: 'tacoloco',
             menu:[
               {
@@ -30,10 +32,11 @@ const restaurants = [
           }
         ]
         },
-        {
+        {          
             zona: 'sur',
             restaurantes:[          
               {
+                id: 3,
                 nombre: 'marvin',
                 menu:[
                   {
@@ -47,6 +50,7 @@ const restaurants = [
                 ]
               },
               {
+                id: 4,
                 nombre: 'bucanero',
                 menu:[
                   {
@@ -65,6 +69,7 @@ const restaurants = [
                 zona: 'oriente',
                 restaurantes:[          
                   {
+                    id: 5,
                     nombre: 'tamarindos',
                     menu:[
                       {
@@ -78,6 +83,7 @@ const restaurants = [
                     ]
                   },
                   {
+                    id: 6,
                     nombre: 'jaguar',
                     menu:[
                       {
@@ -96,6 +102,7 @@ const restaurants = [
                     zona: 'poniente',
                     restaurantes:[          
                       {
+                        id: 7,
                         nombre: 'potrillos',
                         menu:[
                           {
@@ -109,6 +116,7 @@ const restaurants = [
                         ]
                       },
                       {
+                        id: 8,
                         nombre: 'perrera',
                         menu:[
                           {
